@@ -1,0 +1,4 @@
+/* Configuração do Git */
+git config --global user.name TCCJOAORAYS
+git config --global user.email jaorays@gmail.com
+git clone

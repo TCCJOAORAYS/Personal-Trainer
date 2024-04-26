@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Administração</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Adicionar Novo Exercício</h2>
+        <form id="exerciseForm">
+            <div>
+                <label for="exerciseName">Nome do Exercício:</label>
+                <input type="text" id="exerciseName" required>
+            </div>
+            <div>
+                <label for="videoFile">Vídeo do Exercício:</label>
+                <input type="file" id="videoFile" accept="video/*" required>
+            </div>
+            <div>
+                <label for="description">Descrição:</label>
+                <textarea id="description" required></textarea>
+            </div>
+            <div>
+                <label for="equipment">Equipamentos Necessários:</label>
+                <input type="text" id="equipment" required>
+            </div>
+            <button type="submit">Adicionar Exercício</button>
+        </form>
+        <div id="videoPreview"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

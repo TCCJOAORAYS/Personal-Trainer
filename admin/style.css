@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="file"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007bff; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="file"]:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+#noFileChosen {
+    display: none; /* Oculta o texto "Nenhum arquivo escolhido" por padrão */
+    color: #888; 
+    margin-top: 5px;
+}
+
+#videoPreview video {
+    margin-top: 10px;
+}
